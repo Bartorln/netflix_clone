@@ -1,0 +1,68 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+}
+
+header.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{    
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 20px;
+    float: right;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+/*QUANDO COLOCAR O MOUSE NO LOCAL ELE MUDAR PARA O COR ESCOLHIDA*/
+/*Coisas sobre o filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: url('../img/matrix_fundo.jpg');
+
+    height: 400px;
+    background-size: cover;/*serve para modelar a foto dentro do height*/
+
+    display: flex;
+    flex-direction: column;/* Os botões ficaram na vertical emc ouna e agora com esse comando ficou na horizontal*/
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.descricao{
+    margin-bottom: 30px;
+    text-align: justify;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
