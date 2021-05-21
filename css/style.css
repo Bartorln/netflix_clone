@@ -15,30 +15,33 @@ body{
    color: white;
 }
 
-header.container{
+.box-header{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{    
+.logo{    
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;    
 }
 
-header nav a{
+.box-header .box-menu a{
     text-decoration: none;
     color: #AAA;
     margin-left: 20px;
-    float: right;
 }
 
-header nav a:hover{
+.box-header .box-menu a:hover{
     color: #fff;
 }
+
+
+/**** HEADER ****/
+
+
 /*QUANDO COLOCAR O MOUSE NO LOCAL ELE MUDAR PARA O COR ESCOLHIDA*/
 /*Coisas sobre o filme principal*/
 
