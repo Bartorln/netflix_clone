@@ -1,4 +1,4 @@
-# netiflix_clone
+# Netflix_clone
 
 Olá!
 Este projeto enquadra-se no período de treinamento do bootcamp HTML Web DeveloperR da Digital Innovation One do curso Recriando a interface do Netflix do instrutor Felipe Aguiar.
