@@ -3,11 +3,15 @@
     --preta: #141414;
 }
 
+/*RESET DA PÁGINA*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*BODY*/
 
 body{
    background: var(--preta);
@@ -16,6 +20,8 @@ body{
    width: 99%;
    
 }
+
+/*HEADDER*/
 
 header .container{
     display: flex;
@@ -27,7 +33,7 @@ header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;    
+    font-size: 40px;  
 }
 
 header nav a{
@@ -49,22 +55,26 @@ header nav a:hover{
     margin-left: 0.5em;
 }
 
+/*BANNER PRINCIPAL*/
+
 .filme-principal{
     font-size: 16px;
     background: url('../img/matrix_fundo.jpg');
     height: 600px;
     background-size: cover;
-     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    border-radius: 2em;
 }
 
 .descricao{
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: justify;    
+    text-align: justify; 
+    padding: 1em;
+     
 }
 
 .dcç-info{
@@ -88,6 +98,7 @@ header nav a:hover{
 
 .titulo{
     margin-top: 10%;
+    padding-left: 1em;
     font-size: 40px;
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -114,18 +125,15 @@ header nav a:hover{
     margin-right: 12px;
 }
 
-.container{
-    margin-left: 10px;    
-}
-
-.filme-principal .container{
-    width: 80%;
-} 
+/*CARROSSEL DOS FILMES*/
 
 .box-film{
     display: block;
     margin-top: 10px;
+    border-radius: 2em;    
 }
+
+/*FOOTER*/
 
 .baseborad{
     background: var(--preta);   
@@ -154,21 +162,25 @@ header nav a:hover{
 #crs-rcm-h1{
     font-size: 20px;
     margin-top: 0.5em;
+    padding: 1em;
 }
 
 #crs-flm-h1{
     font-size: 20px;
     margin-top: 0.5em;
+    padding: 1em;
 }
 
 #crs-srs-h1{
     font-size: 20px;
     margin-top: 0.5em;
+    padding: 1em;
 }
 
 #crs-dcm-h1{
     font-size: 20px;
     margin-top: 0.5em;
+    padding: 1em;
 }
 
 #crs-rcm-h1:hover{
